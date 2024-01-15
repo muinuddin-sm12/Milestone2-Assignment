@@ -152,10 +152,12 @@ html,body {
     margin-bottom: 80px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
     align-items: center;
 }
 .popular-content {
-    max-width: 577px;
+    /* max-width: 577px; */
+    width: 50%;
 }
 .popular-content h2 {
     font-size: 40px;
@@ -181,7 +183,154 @@ html,body {
     border-radius: 8px;
     padding: 14px 35px;
 }
+.popular-img {
+    width: 50%;
+}
 .popular-img img {
+    width: 100%;
+}
+/* Destination Section */
+.destination-section {
+    text-align: center;
+}
+.destination-section h2 {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+.destination-section p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 643px;
+    margin: 0 auto;
+}
+.img-row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.row-one {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.row-one-left {
+    width: 50%;
+    position: relative;
+}
+.row-one-left h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-one-left img {
+    width: 100%;
+}
+.row-one-right {
+    width: 50%;
+    position: relative;
+}
+.row-one-right h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-one-right img {
+    width: 100%;
+}
+.row-two {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+.row-two-left {
+    width: 35%;
+    position: relative;
+}
+.row-two-left h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-two-left img {
+    width: 100%;
+}
+.row-two-middle {
+    width: 45%;
+    position: relative;
+}
+.row-two-middle h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-two-middle img {
+    width: 100%;
+}
+.row-two-right {
+    width: 26%;
+    position: relative;
+}
+.row-two-right h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-two-right img {
+    width: 100%;
+}
+.row-three {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+}
+.row-three-left {
+    width: 41%;
+    position: relative;
+}
+.row-three-left h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-three-left img {
+    width: 100%;
+}
+.row-three-right {
+    width: 59%;
+    position: relative;
+}
+.row-three-right h4 {
+    color: #FFF;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+}
+.row-three-right img {
     width: 100%;
 }
 /*------- Main Section End -------*/
@@ -311,11 +460,62 @@ html,body {
     .popular-section p {
         font-size: 14px;
     }
+    .popular-content {
+        width: 100%;
+    }
     .popular-img {
         margin-top: 24px;
+        width: 100%;
     }
     .popular-content ul li {
         font-size: 14px;
+    }
+    /* Destination section */
+    .destination-section h2 {
+        font-size: 20px;
+    }
+    .destination-section p {
+        font-size: 14px;
+    }
+    .img-row {
+        gap: 15px;
+    }
+    .row-one {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .row-two {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .row-three {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .row-one-left {
+        width: 100%;
+    }
+    .row-one-right{
+        width: 100%;
+    }
+    .row-two-left{
+        width: 100%;
+    }
+    .row-two-middle{
+        width: 100%;
+    }
+    .row-two-right{
+        width: 100%;
+
+    }
+    .row-three-left{
+        width: 100%;
+    }
+    .row-three-right{
+        width: 100%;
+    }
+    .img-title h4{
+        font-size: 5vw;
     }
 
 
