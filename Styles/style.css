@@ -14,7 +14,7 @@ html,body {
     padding: 0px 135px;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgba(195, 195, 255, 0.828);
+    /* background-color: rgba(195, 195, 255, 0.828); */
 }
 /* .btn {
     color: #FFF;
@@ -333,6 +333,67 @@ html,body {
 .row-three-right img {
     width: 100%;
 }
+/* Choice Section */
+.choice-section {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.choice-content {
+    text-align: center;
+}
+.choice-content h2 {
+    font-size: 40px;
+    color: #131318;
+    font-weight: 800;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
+}
+.choice-content p {
+    color: rgba(19, 19, 24, 0.70);
+    max-width: 643px;
+    margin: 0px auto 40px auto;
+}
+.choice-cart {
+    max-width: 573px;
+    height: 284px;
+    padding: 32px 55px 32px 32px;
+    border-radius: 16px;
+}
+.cart-one {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.cart-two {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.cart-three {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.choice-cart img {
+    margin-bottom: 32px;
+}
+.choice-cart h3 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318
+}
+.choice-cart p {
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.choice-cart-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+
+
+
 /*------- Main Section End -------*/
 
 
@@ -517,6 +578,40 @@ html,body {
     .img-title h4{
         font-size: 5vw;
     }
+    /* Coice Section */
+    .choice-section {
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+    .choice-content h2 {
+        font-size: 20px;
+    }
+    .choice-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .choice-cart {
+        width: 100%;
+        padding: 32px;
+    }
+    .choice-cart img {
+        width: 48px;
+        margin-bottom: 16px;
+    }
+    .choice-cart h3 {
+        font-size: 20px;
+    }
+    .choice-cart p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+
+
+
+
+
+
 
 
 
