@@ -14,7 +14,7 @@ html,body {
     padding: 0px 135px;
     max-width: 1440px;
     margin: 0 auto;
-    background-color: rgba(195, 195, 255, 0.828);
+    /* background-color: rgba(195, 195, 255, 0.828); */
 }
 /* .btn {
     color: #FFF;
@@ -146,8 +146,44 @@ html,body {
 
 
 /*------- Main Section Start -------*/
-
-
+/* Popular Section */
+.popular-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-content {
+    max-width: 577px;
+}
+.popular-content h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.popular-content p {
+    margin: 24px 0px;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-content ul {
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-content ul li {
+    margin: 16px 0px 16px 20px;
+}
+.popular-content button {
+    color: #FFF;
+    background-color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 35px;
+}
+.popular-img img {
+    width: 100%;
+}
 /*------- Main Section End -------*/
 
 
@@ -218,5 +254,23 @@ html,body {
     }
     .banner-input input{
         width: 100%;
+    }
+    /* Popular section */
+    .popular-section {
+        margin-top: 24px;
+        flex-direction: column;
+    }
+    .popular-section h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .popular-section p {
+        font-size: 14px;
+    }
+    .popular-img {
+        margin-top: 24px;
+    }
+    .popular-content ul li {
+        font-size: 14px;
     }
 }
