@@ -389,8 +389,115 @@ html,body {
     flex-wrap: wrap;
     gap: 24px;
 }
-
-
+/* Discount Section  */
+.discount-section h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px auto 24px auto ;
+}
+.discount-section p {
+    max-width: 643px;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    line-height: 26px;
+    margin: 0 auto 40px auto;
+}
+.discount-cart-one {
+    /* width: 100%; */
+    height: 500px;
+    background-image: url('../Images/Group\ 39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.cart-content-one {
+    height: 389px;
+    width: 579px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    padding: 50px 77px 50px 50px;
+    margin-right: 56px;
+}
+.cart-content-two {
+    height: 389px;
+    width: 579px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    border-radius: 16px;
+    padding: 50px 77px 50px 50px;
+    margin-left: 56px;
+}
+.discount-cart-two {
+    width: 100%;
+    height: 500px;
+    background-image: url('../Images/Group\ 40.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.discount-cart-three {
+    width: 100%;
+    height: 500px;
+    background-image: url('../Images/Group\ 39.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.discount-icons ul  {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 26px;
+}
+.discount-icons ul li {
+    list-style: none;
+}
+.discount-icons ul li i{
+    color: #FF5400;
+    padding-right: 10px;
+}
+.cart-content-one h4, .cart-content-two h4 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #131318;
+    margin-bottom: 16px;
+}
+.cart-content-one p, .cart-content-two p {
+    text-align: start;
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.cart-content-one h5, .cart-content-two h5 {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.cart-content-one button , .cart-content-two button{
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 8px;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
 
 
 
@@ -605,8 +712,62 @@ html,body {
         font-size: 14px;
         line-height: 24px;
     }
-
-
+    /* Discount Section */
+    .discount-cart-one ,.discount-cart-three {
+        height: 500px;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border-radius: 16px;
+    }
+    .discount-cart-two {
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        align-items: end;
+        margin-bottom: 24px;
+        border-radius: 16px;
+    }
+    .cart-content-one {
+        height: 315px;
+        width: 303px;
+        padding: 40px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+    .cart-content-two {
+        height: 315px;
+        width: 303px;
+        padding: 40px;
+        margin-right: 0px;
+        margin-bottom: 16px;
+        margin-left: 0px;
+    }
+    .cart-content-one h4, .cart-content-two h4 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .discount-icons ul  {
+        margin-bottom: 18px;
+    }
+    .cart-content-one p, .cart-content-two p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    .cart-content-one h5, .cart-content-two h5 {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .cart-content-one button , .cart-content-two button{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    .hide-text {
+        display: none;
+    }
+    
 
 
 
