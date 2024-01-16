@@ -325,10 +325,7 @@ html,body {
     width: 100%;
 }
 /* Choice Section */
-.choice-section {
-    margin-top: 60px;
-    margin-bottom: 80px;
-}
+
 .choice-content {
     text-align: center;
 }
@@ -336,7 +333,6 @@ html,body {
     font-size: 40px;
     color: #131318;
     font-weight: 800;
-    /* margin-top: 50px; */
     margin-bottom: 20px;
 }
 .choice-content p {
@@ -395,7 +391,6 @@ html,body {
     margin: 0 auto 40px auto;
 }
 .discount-cart-one {
-    /* width: 100%; */
     height: 500px;
     background-image: url('../Images/Group\ 39.png');
     background-position: center;
@@ -490,14 +485,50 @@ html,body {
     border: none;
 }
 /* Video Section  */
-
-
-
-
-
-
-
-
+.video-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+    margin: 60px auto 60px auto;
+}
+.video-content {
+    width: 50%;
+}
+.video-content h2 {
+    max-width: 448px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+.video-content > p {
+    color: #5A5A5D;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.video-content ul li {
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 20px;
+    color: #131318;
+}
+.video-content button {
+    padding: 14px 42px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #FFF;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+.video-img {
+    width: 50%;
+}
+.video-img img {
+    width: 100%;
+}
 /* Newsletter Section */
 .newsletter-section {
     width: 100%;
@@ -592,14 +623,6 @@ html,body {
     width: 100%;    
     border-radius: 16px;
 }
-
-
-
-
-
-
-
-
 /*------- Main Section End -------*/
 
 
@@ -651,21 +674,6 @@ html,body {
     color: #131318;
 }
 /*------- Footer Section End -------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Media query Start  */
@@ -747,38 +755,11 @@ html,body {
     .img-row {
         gap: 15px;
     }
-    .row-one {
+    .row-one, .row-two, .row-three {
         flex-direction: column;
         gap: 15px;
     }
-    .row-two {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .row-three {
-        flex-direction: column;
-        gap: 15px;
-    }
-    .row-one-left {
-        width: 100%;
-    }
-    .row-one-right{
-        width: 100%;
-    }
-    .row-two-left{
-        width: 100%;
-    }
-    .row-two-middle{
-        width: 100%;
-    }
-    .row-two-right{
-        width: 100%;
-
-    }
-    .row-three-left{
-        width: 100%;
-    }
-    .row-three-right{
+    .row-one-left, .row-one-right, .row-two-left, .row-two-middle, .row-two-right, .row-three-left, .row-three-right {
         width: 100%;
     }
     .img-title h4{
@@ -812,6 +793,9 @@ html,body {
         line-height: 24px;
     }
     /* Discount Section */
+    .discount-section {
+        margin-top: 50px;
+    }
     .discount-cart-one ,.discount-cart-three {
         height: 500px;
         background-repeat: no-repeat;
@@ -819,6 +803,10 @@ html,body {
         justify-content: center;
         align-items: end;
         border-radius: 16px;
+    }
+    .discount-section h2 {
+        font-size: 20px;
+        margin: 0px auto 16px auto ;
     }
     .discount-cart-two {
         width: 100%;
@@ -866,6 +854,35 @@ html,body {
     .hide-text {
         display: none;
     }
+    /* Video section  */
+    .video-section {
+        gap: 14px;
+        flex-direction: column;
+        margin: 60px auto 60px auto;
+    }
+    .video-content {
+        width: 100%;
+    }
+    .video-content h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .video-content > p {
+        line-height: 24px;
+        font-size: 14px;
+    }
+    .video-content ul li {
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 20px;
+    }
+    .video-content button {
+        padding: 14px 32px;
+        font-size: 18px;
+    }
+    .video-img {
+        width: 100%;
+    }
     /* Newslettr Section */
     .newsletter-section {
         flex-direction: column;
@@ -895,27 +912,11 @@ html,body {
         margin-bottom: 40px;
     }
     .map-section h2 {
-        font-size: 26px;
+        font-size: 20px;
     }
     .map-section iframe {
         height: 350px;
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /* Footer Section */
     .foot-logo h2{
         font-size: 21px;
