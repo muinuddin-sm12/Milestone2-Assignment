@@ -377,6 +377,10 @@ html,body {
     gap: 24px;
 }
 /* Discount Section  */
+.discount-section {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
 .discount-section h2 {
     font-size: 40px;
     font-weight: 800;
